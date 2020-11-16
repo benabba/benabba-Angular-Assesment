@@ -1,0 +1,15 @@
+<mat-toolbar class="toolbar">
+    <div class="playlist-name">
+        <span>{{playlistName$ | async}}</span>
+        <span class="playlist-duration">{{totaldurationMinutes$ | async}}:{{totaldurationSeconds$ | async}}</span>
+    </div>
+    <div class="grow"></div>
+    <div class="playlist-action">
+        <button mat-flat-button class="actions"><mat-icon>edit</mat-icon></button>
+        <button mat-flat-button class="actions"><mat-icon>delete</mat-icon></button>
+        <button mat-flat-button class="actions"><mat-icon>remove_red_eye</mat-icon></button>
+        <button mat-flat-button class="publish"><mat-icon>publish</mat-icon>
+            <span class="publish-text">Publiceer</span>
+        </button>
+    </div>
+</mat-toolbar>

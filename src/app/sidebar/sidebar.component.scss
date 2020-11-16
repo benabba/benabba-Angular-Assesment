@@ -1,0 +1,45 @@
+.sidebar {
+  .drawer .contents {
+    padding: 16px;
+  
+  }
+  .navside-header {
+    padding: 8px;
+    height: 42px;
+    .navside-header-text {
+      margin-left: 8px;
+      float: left;
+    }
+    .navside-header-button {
+      margin-right: 8px;
+      float: right;
+      border: none;
+      background-color: transparent;
+    }
+  
+  }
+  
+  .mat-nav-list .mat-list-item:hover {
+    border-left: #4682B4 solid 6px;
+    color: #4682B4;
+  }
+  
+  .mat-nav-list .mat-list-item .active {
+    border-left: #4682B4 solid 6px;
+    color: #4682B4;
+  }
+  
+  .playlist-name  {
+    text-align: left;
+  }
+  
+  .contents {
+    margin-top: 64px;
+  }
+  .playlist  {
+    font-weight: 200;
+  }
+  .navside-item {
+    padding: 16px;
+  }
+}

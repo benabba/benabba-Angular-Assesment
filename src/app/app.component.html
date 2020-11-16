@@ -1,0 +1,20 @@
+<mat-drawer-container [class.drawer-opened]="drawer.opened" class="sidenav-container">
+    <mat-drawer #drawer class="drawer" mode="side" opened="true">
+        <mat-toolbar class="header">
+            <a href="https://www.prisma-it.com/">
+                <img src="../assets/img/logo.jpeg" class="logo-company">
+            </a>
+            <div class="company-name">Prisma IT</div>
+            <mat-icon class="close" (click)="drawer.close()">close</mat-icon>
+        </mat-toolbar>
+        <sidebar-component></sidebar-component>
+    </mat-drawer>
+    <mat-toolbar class="main header">
+        <mat-icon class="menu" *ngIf="!drawer.opened" (click)="drawer.toggle()">
+            menu
+        </mat-icon>
+    </mat-toolbar>
+    <div class="main-content">
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>

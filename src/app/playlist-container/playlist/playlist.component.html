@@ -1,0 +1,4 @@
+<div class="playlist" >
+    <app-add-slides-card></app-add-slides-card>
+    <app-slide *ngFor="let slide of slidesToDisplay$ | async;  let i = index" [slide]="slide" [number]="i+1"></app-slide>
+</div>

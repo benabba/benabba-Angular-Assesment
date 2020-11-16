@@ -1,0 +1,57 @@
+.main-content {
+    min-height: 100vh;
+    margin-top: 64px; 
+    padding: 16px;
+    background-color: #F5F5F5;
+  }
+  .main.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 1px #D0D0D0;
+    border-bottom: 1px solid #ccc;
+    background-color: #4682B4;
+  }
+  .company-name {
+    color: white;
+  }
+  .menu {
+    color: white;
+  }
+  .close {
+    color: white;
+  }
+  .drawer .header {
+    position: absolute;
+    right: 0;
+    background-color: #4682B4;
+    justify-content: space-between;
+  }
+  .drawer {
+    position: fixed;
+    height: 100vh;
+    min-width: 25%;
+    border-right: 1px solid #ccc;
+  }
+  .navside-item {
+      padding: 16px;
+  }
+  .main {
+    background-color: #fff;
+  }
+  .logo-company {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .header-main-screen {
+    background-color: #4682B4;
+  }
+  .main.footer {
+    position: fixed;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  

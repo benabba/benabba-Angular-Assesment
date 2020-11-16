@@ -1,0 +1,16 @@
+<div class="slid-view">
+  <mat-card class="card">
+    <div class="image-container">
+        <img mat-card-image src="{{slide.preview}}" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">{{totaldurationMinutes}} : {{totaldurationSeconds}}</div>
+        </div>
+      </div>
+    <mat-card-footer class="card-footer">
+        <span class="card-number">
+            {{number}}
+        </span>
+        <mat-card-title class="card-title">{{slide.title}}</mat-card-title>
+    </mat-card-footer>
+  </mat-card>
+</div>

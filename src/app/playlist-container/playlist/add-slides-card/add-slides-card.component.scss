@@ -1,0 +1,38 @@
+.card {
+  margin: 16px;
+  max-width: 220px;
+  min-width: 180px;
+  background-color: white;
+  position: relative;
+}
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 164px;
+  width: 220px;
+}
+.add-slider-botton {
+  bottom: 0;
+  height: 100%;
+}
+.control-point {
+  color: #4682B4;
+  font-size: 60px;
+  height: 100%;
+  width: 100%;
+}
+.card-footer {
+  margin: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.card-title {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}

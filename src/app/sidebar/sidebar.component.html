@@ -1,0 +1,22 @@
+<div class="sidebar">
+    <div class="contents">
+        <mat-nav-list>
+            <mat-list-item>
+                <div mat-line>
+                    <a class="playlist"> Wat speelt er nu ?</a>
+                </div>
+            </mat-list-item>
+            <mat-list-item>
+                <div mat-line>
+                    <a class="playlist"> Playlist toevoegen </a>
+                </div>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="onSelect(playlist)" *ngFor="let playlist of playlists">
+                <div mat-line>
+                    <a class="playlist"> {{playlist.name}} </a>
+                </div>
+            </mat-list-item>
+        </mat-nav-list>
+    </div>
+</div>
