@@ -14,7 +14,6 @@ export class PlaylistContainerComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, public router: Router) {
   }
-
   ngOnInit(): void {
     this.playlistId$ = this.route.paramMap.pipe(map((params: ParamMap) => parseInt(params.get('id') as string)));
   }
